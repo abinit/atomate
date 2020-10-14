@@ -17,6 +17,9 @@ from pymatgen.core.structure import Structure
 from fireworks import Workflow
 
 
+__all__ = ("ScfWFGenerator", )
+
+
 class ScfWFGenerator(BaseStructureWFGenerator):
     """Workflow generator for Self-Consistent Field (SCF) calculations."""
 

@@ -17,6 +17,11 @@ from typing import Union
 from pymatgen.core.structure import Structure
 
 
+__all__ = ("BaseWFGenerator",
+           "BaseStructureWFGenerator",
+           )
+
+
 BaseWFGeneratorType = TypeVar('BaseWFGeneratorType', bound='BaseWFGenerator')
 
 

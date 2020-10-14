@@ -15,6 +15,9 @@ from atomate.abinit.firetasks.control_tasks import CheckTask
 from atomate.common.firetasks.glue_tasks import PassCalcLocs
 
 
+__all__ = ("scf_fw", )
+
+
 def scf_fw(structure):
     """Generate a Firework for a Self-Consistent Field (SCF) calculation.
 

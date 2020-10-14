@@ -12,6 +12,12 @@ from fireworks import explicit_serialize, FiretaskBase
 from atomate.utils.utils import get_logger
 from atomate.common.firetasks.glue_tasks import CopyFiles
 
+
+__all__ = ("CopyAbinitOutputs",
+           "CreateAbinitFolders",
+           "ResolveDeps",)
+
+
 logger = get_logger(__name__)
 
 __author__ = 'David Waroquiers'

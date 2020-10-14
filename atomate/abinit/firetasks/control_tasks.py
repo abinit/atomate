@@ -11,6 +11,10 @@ from fireworks import explicit_serialize, FiretaskBase
 
 from atomate.utils.utils import get_logger
 
+
+__all__ = ("CheckTask", )
+
+
 logger = get_logger(__name__)
 
 __author__ = 'David Waroquiers'
